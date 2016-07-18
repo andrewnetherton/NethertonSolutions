@@ -1,0 +1,9 @@
+# Site Settings
+title: 'Jonathan Hines Web Development Consulting'
+description: 'Solid web sites and applications.'
+url: 'http://scotch-io.github.io' # the base hostname & protocol for your site
+footer_text: 'Jonathan Hines is a web developer based in Waterloo Ontario.'
+
+# Admin Settings
+admin_name: 'Jonathan Hines'
+admin_email: 'jon@jonathanhines.ca'
