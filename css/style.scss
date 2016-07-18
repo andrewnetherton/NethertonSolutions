@@ -4,7 +4,7 @@
 @import '../_sass/syntax-highlighting';
 
 
-$scotch-primary: #1BA8E2;
+$netherton-primary: #1BA8E2;
 $scotch-secondary: #009945;
 
 %oswald { font-family: 'Oswald', sans-serif; }
@@ -53,7 +53,7 @@ nav.navbar {
 
         i {
             transition: inherit;
-            color: $scotch-primary;
+            color: $netherton-primary;
             transform: scale(1);
         }
 
@@ -66,7 +66,7 @@ nav.navbar {
 .title-group {
     text-align: center;
     padding: 0 15px;
-    margin: 50px 0 100px;
+    margin: 50px 0 20px;
 
     p {
         max-width: 800px;
@@ -80,10 +80,10 @@ h1.special {
     margin: 0;
     text-transform: uppercase;
     @extend %oswald;
-    font-size: 69px;
-    line-height: 69px;
+    font-size: 40px;
+    line-height: 40px;
     font-weight: 700;
-    color: $scotch-primary;
+    color: $netherton-primary;
 
     span {
         display: inline-block;
@@ -110,16 +110,16 @@ h1.special {
 .tile {
     position: relative;
     box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135);
-    margin-bottom: 125px;
+    margin-bottom: 75px;
 
     .inner-guts { padding: 50px; }
 
     h2 {
         margin: 0;
-        font-size: 100px;
+        font-size: 36px;
         font-weight: 400;
         letter-spacing: -0.05em;
-        line-height: 100px;
+        line-height: 36px;
     }
 
     .featurette {
@@ -179,9 +179,9 @@ h1.special {
     }
 
     .excerpt {
-        font-size: 35px;
+        font-size: 24px;
         font-weight: 300;
-        line-height: 49px;
+        line-height: 1.5em;
         color: #484848;
 
         p {
@@ -235,7 +235,7 @@ aside {
 }
 
 .site-footer {
-    margin-top: 200px;
+    margin-top: 30px;
 }
 
 .pagination-wrap {

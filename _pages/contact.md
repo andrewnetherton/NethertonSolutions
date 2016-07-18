@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-You can reach me at: jon@jonathanhines.ca
+You can reach me at: andrew@netherton.solutions 
