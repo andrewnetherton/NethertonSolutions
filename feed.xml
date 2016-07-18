@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jonathan Hines Web Development Consulting</title>
-    <description>Solid web sites and applications.</description>
-    <link>http://scotch-io.github.io/</link>
-    <atom:link href="http://scotch-io.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jul 2016 07:56:56 -0400</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2016 07:56:56 -0400</lastBuildDate>
+    <title>Netherton Solutions</title>
+    <description>Enginteering Consulting and Design.</description>
+    <link>https://andrewnetherton.github.io/NethertonSolutions/</link>
+    <atom:link href="https://andrewnetherton.github.io/NethertonSolutions/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jul 2016 10:56:19 -0400</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 10:56:19 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;p&gt;This makes me want to go out and buy some lego.&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Jul 2016 09:26:34 -0400</pubDate>
-        <link>http://scotch-io.github.io/lego-automated-pin-sorter.html</link>
-        <guid isPermaLink="true">http://scotch-io.github.io/lego-automated-pin-sorter.html</guid>
+        <link>https://andrewnetherton.github.io/NethertonSolutions/lego-automated-pin-sorter.html</link>
+        <guid isPermaLink="true">https://andrewnetherton.github.io/NethertonSolutions/lego-automated-pin-sorter.html</guid>
         
         <category>videos</category>
         
@@ -47,8 +47,8 @@
 &lt;p&gt;This is all well and good but in the end, I’d really like to dispense with web servers entirely if I can help it, or at lease only use them for dynamic content.  Once I can get a static site generator I’m happy with, I think the next step will be to write a contact form web service that I’ll use via javascript and then I can move everything to S3 and decommission my web server.&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jul 2016 09:26:34 -0400</pubDate>
-        <link>http://scotch-io.github.io/new-website.html</link>
-        <guid isPermaLink="true">http://scotch-io.github.io/new-website.html</guid>
+        <link>https://andrewnetherton.github.io/NethertonSolutions/new-website.html</link>
+        <guid isPermaLink="true">https://andrewnetherton.github.io/NethertonSolutions/new-website.html</guid>
         
         <category>html</category>
         
