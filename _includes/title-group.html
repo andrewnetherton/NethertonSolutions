@@ -1,25 +1,21 @@
-{% if page.featured_image or page.featured_video_id %}
-    <div class="topper">
-        {% if page.featured_image %}
-        <span class="img" style="background-image: url('{{ page.featured_image }}');">
-        {% endif %}
-
-        {% if page.featured_video_id %}
-        <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
-        {% endif %}
+<div class="title-group container-fluid">
+  <div class="row">
+    <div class="col-md-4" id="logo">
+      <a href="{{ site.data.global.url }}/"><img src="{{ site.data.global.url }}/images/logo.jpg" alt="Netherton Solutions Logo"></a>
     </div>
-{% endif %}
-
-<div class="title-group">
-    <h1 class="special">
-        <span>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %}
-            {{ site.data.global.title }}
-        {% endif %}
-        </span>
-    </h1>
+    <div class="col-md-8">
+      <h1 class="special">
+          <span>
+          {% if page.title %}
+              {{ page.title }}
+          {% else %}
+              {{ site.data.global.title }}
+          {% endif %}
+          </span>
+      </h1>
+    </div>
+  </div>
+  <div class="row">
     {% if page.id %}
     <aside>
         {{ page.date | date: "%m.%d.%y" }}
@@ -40,4 +36,16 @@
             {{ site.data.global.description }}
         {% endif %}
     </p>
+  </div>
 </div>
+{% if page.featured_image or page.featured_video_id %}
+    <div class="topper">
+        {% if page.featured_image %}
+        <span class="img" style="background-image: url('{{ page.featured_image }}');">
+        {% endif %}
+
+        {% if page.featured_video_id %}
+        <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+    </div>
+{% endif %}

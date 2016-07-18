@@ -66,7 +66,7 @@ nav.navbar {
 .title-group {
     text-align: center;
     padding: 0 15px;
-    margin: 50px 0 20px;
+    margin: 20px 0 20px;
 
     p {
         max-width: 800px;
@@ -75,7 +75,7 @@ nav.navbar {
 }
 h1.special {
     position: relative;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
     margin: 0;
     text-transform: uppercase;
@@ -84,6 +84,7 @@ h1.special {
     line-height: 40px;
     font-weight: 700;
     color: $netherton-primary;
+    margin-top: 80px;
 
     span {
         display: inline-block;
@@ -240,6 +241,13 @@ aside {
 
 .pagination-wrap {
     text-align: center;
+}
+
+#logo {
+  img {
+    max-width: 300px;
+    width: 70%;
+  }
 }
 
 .topper {
