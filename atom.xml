@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Netherton Solutions</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2016-07-18T13:37:27-04:00</updated>
- <id></id>
+ <link href="https://andrewnetherton.github.io/NethertonSolutions/atom.xml" rel="self"/>
+ <link href="https://andrewnetherton.github.io/NethertonSolutions/"/>
+ <updated>2016-07-19T09:18:49-04:00</updated>
+ <id>https://andrewnetherton.github.io/NethertonSolutions</id>
  <author>
    <name>Andrew Netherton</name>
    <email>andrew@netherton.solutions</email>
@@ -13,10 +13,19 @@
 
  
  <entry>
+   <title>Welcome to Netherton Solutions</title>
+   <link href="https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions.html"/>
+   <updated>2016-07-19T00:00:00-04:00</updated>
+   <id>https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions</id>
+   <content type="html">&lt;p&gt;Netherton Solutions uses &lt;a href=&quot;http://solidworks.com&quot;&gt;Solidworks&lt;/a&gt; 3D CAD software, provided by &lt;a href=&quot;http://fea-tc.com&quot;&gt;FEA Training Consultants&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>First Post (LOL)</title>
-   <link href="/f1rst-p0st.html"/>
+   <link href="https://andrewnetherton.github.io/NethertonSolutions/f1rst-p0st.html"/>
    <updated>2016-07-18T13:00:00-04:00</updated>
-   <id>/f1rst-p0st</id>
+   <id>https://andrewnetherton.github.io/NethertonSolutions/f1rst-p0st</id>
    <content type="html">&lt;p&gt;So it tried out Jekyll as it seems to be becoming popular and here we are.&lt;/p&gt;
 
 &lt;p&gt;Jekyll seems to be pretty effective.  I’ve been enjoying building this particular site.  It is based on the &lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme&quot;&gt;tutorial theme&lt;/a&gt; provided by &lt;a href=&quot;http://scotch.io&quot;&gt;scotch.io&lt;/a&gt;.&lt;/p&gt;
@@ -29,9 +38,9 @@
  
  <entry>
    <title>Lego pin sorter</title>
-   <link href="/lego-automated-pin-sorter.html"/>
+   <link href="https://andrewnetherton.github.io/NethertonSolutions/lego-automated-pin-sorter.html"/>
    <updated>2016-07-16T09:26:34-04:00</updated>
-   <id>/lego-automated-pin-sorter</id>
+   <id>https://andrewnetherton.github.io/NethertonSolutions/lego-automated-pin-sorter</id>
    <content type="html">&lt;p&gt;I just found this post on youtube, google used it’s deep learning voodoo to recommend it to me and it seems they chose well.  The video is great, it gets right to the point and require no &lt;a href=&quot;http://knowyourmeme.com/memes/the-wadsworth-constant&quot; title=&quot;Wadsworth Constant explained&quot;&gt;Wadsworth constant&lt;/a&gt; correction.&lt;/p&gt;
 
 &lt;p&gt;This is the first time I’ve seen a compressed air system for lego and it’s a pretty exciting concept.  The system uses 4 pumps, driven off a camshaft to maintain air pressure.  The pressurized air is then used to blow pins into their appropriate bins.  Using only a single optical sensor and a single mind storms brain the machine is able to sort pins into bins automatically.&lt;/p&gt;
@@ -42,9 +51,9 @@
  
  <entry>
    <title>Updated website</title>
-   <link href="/new-website.html"/>
+   <link href="https://andrewnetherton.github.io/NethertonSolutions/new-website.html"/>
    <updated>2016-07-15T09:26:34-04:00</updated>
-   <id>/new-website</id>
+   <id>https://andrewnetherton.github.io/NethertonSolutions/new-website</id>
    <content type="html">&lt;p&gt;So it tried out Jekyll as it seems to be becoming popular and here we are.&lt;/p&gt;
 
 &lt;p&gt;Jekyll seems to be pretty effective.  I’ve been enjoying building this particular site.  It is based on the &lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme&quot;&gt;tutorial theme&lt;/a&gt; provided by &lt;a href=&quot;http://scotch.io&quot;&gt;scotch.io&lt;/a&gt;.&lt;/p&gt;
