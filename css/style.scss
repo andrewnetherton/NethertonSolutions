@@ -4,8 +4,10 @@
 @import '../_sass/syntax-highlighting';
 
 
-$netherton-primary: #1BA8E2;
-$scotch-secondary: #009945;
+$netherton-primary: #0093C9;
+$netherton-secondary: #E2231A;
+$netherton-dark: #222222;
+$netherton-light-grey: #e8e8e8;
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -26,9 +28,9 @@ a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $scotch-secondary;
+    color: $netherton-primary;
 
-    &:hover { color: #6165FF; }
+    &:hover { color: $netherton-secondary; }
 }
 .btn {
     text-transform: uppercase;
@@ -37,7 +39,7 @@ a {
 }
 h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 ::selection {
-    background: #086AFF;
+    background: $netherton-primary;
     color: #fff;
 }
 nav.navbar {
@@ -76,6 +78,9 @@ nav.navbar {
 h1.special {
     position: relative;
     text-align: left;
+    &.main {
+      text-align: center;
+    }
     overflow: hidden;
     margin: 0;
     text-transform: uppercase;
@@ -84,7 +89,7 @@ h1.special {
     line-height: 40px;
     font-weight: 700;
     color: $netherton-primary;
-    margin-top: 80px;
+    margin-top: 15px;
 
     span {
         display: inline-block;
@@ -130,7 +135,7 @@ h1.special {
         margin-bottom: 15px;
         width: 100%;
         height: 550px;
-        background-color: #e8e8e8;
+        background-color: $netherton-light-grey;
 
         .img {
             background-size: cover;
@@ -153,7 +158,7 @@ h1.special {
                 height: 100%;
                 display: block;
                 content: '';
-                background: #000;
+                background: $netherton-dark;
                 opacity: 0.4;
                 transition: all 225ms ease;
             }
@@ -183,7 +188,7 @@ h1.special {
         font-size: 24px;
         font-weight: 300;
         line-height: 1.5em;
-        color: #484848;
+        color: $netherton-dark;
 
         p {
             margin: 0;
@@ -225,7 +230,7 @@ h1.special {
 
 aside {
     font-size: 17px;
-    color: #525252;
+    color: $netherton-dark;
     margin: 16px 0;
     @extend %oswald;
 
@@ -244,9 +249,15 @@ aside {
 }
 
 #logo {
+  &.main {
+    text-align: center;
+    img {
+      max-height: 200px;
+    }
+  }
+  text-align: right;
   img {
-    max-width: 300px;
-    width: 70%;
+    max-height: 80px;
   }
 }
 
@@ -285,6 +296,9 @@ pre {
     pre {
         margin-left: 0;
         margin-right: 0;
+    }
+    #logo {
+      text-align: center;
     }
 }
 

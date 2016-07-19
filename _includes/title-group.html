@@ -1,19 +1,28 @@
 <div class="title-group container-fluid">
   <div class="row">
-    <div class="col-md-4" id="logo">
-      <a href="{{ site.data.global.url }}/"><img src="{{ site.data.global.url }}/images/logo.jpg" alt="Netherton Solutions Logo"></a>
-    </div>
-    <div class="col-md-8">
-      <h1 class="special">
-          <span>
-          {% if page.title %}
+    {% if page.title %}
+      <div class="col-md-4" id="logo">
+        <a href="{{ site.data.global.url }}/"><img src="{{ site.data.global.url }}/images/logo-nt.png" alt="Netherton Solutions Logo"></a>
+      </div>
+      <div class="col-md-8">
+        <h1 class="special secondary">
+            <span>
               {{ page.title }}
-          {% else %}
+            </span>
+        </h1>
+      </div>
+    {% else %}
+      <div class="col-md-12">
+        <div id="logo" class="main">
+          <a href="{{ site.data.global.url }}/"><img src="{{ site.data.global.url }}/images/logo.jpg" alt="Netherton Solutions Logo"></a>
+        </div>
+        <h1 class="sr-only">
+            <span>
               {{ site.data.global.title }}
-          {% endif %}
-          </span>
-      </h1>
-    </div>
+            </span>
+        </h1>
+      </div>
+    {% endif %}
   </div>
   <div class="row">
     {% if page.id %}
