@@ -4,7 +4,7 @@
  <title>Netherton Solutions</title>
  <link href="https://andrewnetherton.github.io/NethertonSolutions/atom.xml" rel="self"/>
  <link href="https://andrewnetherton.github.io/NethertonSolutions/"/>
- <updated>2016-07-19T09:30:23-04:00</updated>
+ <updated>2016-07-20T15:33:44-04:00</updated>
  <id>https://andrewnetherton.github.io/NethertonSolutions</id>
  <author>
    <name>Andrew Netherton</name>
@@ -17,50 +17,19 @@
    <link href="https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions.html"/>
    <updated>2016-07-19T00:00:00-04:00</updated>
    <id>https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions</id>
-   <content type="html">&lt;p&gt;Netherton Solutions uses &lt;a href=&quot;http://solidworks.com&quot;&gt;Solidworks&lt;/a&gt; 3D CAD software, provided by &lt;a href=&quot;http://fea-tc.com&quot;&gt;FEA Training Consultants&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>First Post (LOL)</title>
-   <link href="https://andrewnetherton.github.io/NethertonSolutions/f1rst-p0st.html"/>
-   <updated>2016-07-18T13:00:00-04:00</updated>
-   <id>https://andrewnetherton.github.io/NethertonSolutions/f1rst-p0st</id>
-   <content type="html">&lt;p&gt;So it tried out Jekyll as it seems to be becoming popular and here we are.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Welcome to Netherton Solutions, a provider of mechanical design and product development services located in Waterloo, Ontario, Canada.&lt;/p&gt;
 
-&lt;p&gt;Jekyll seems to be pretty effective.  I’ve been enjoying building this particular site.  It is based on the &lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme&quot;&gt;tutorial theme&lt;/a&gt; provided by &lt;a href=&quot;http://scotch.io&quot;&gt;scotch.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can provide the following services:&lt;/p&gt;
 
-&lt;p&gt;I’ve been working on Drupal sites for the past 3 years and the constant update process is starting to get old.  Some day I just want my sites to be ok on their own.  I want to be able to go on vacation without worrying about some new security flaw to be announced and then have some script kiddie compromise my web server before I can run an update.  I’ve successfully use the &lt;a href=&quot;https://www.drupal.org/project/static&quot;&gt;static generator&lt;/a&gt; module to archive sites in the past and after a little bit of bash scripting I was able to upload a static version of a Drupal site to Amazon S3 to be served as a website without a database or web server.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;product design from conceptualization through to manufacturing documentation&lt;/li&gt;
+  &lt;li&gt;custom jig, fixture, mock-up, and machine design&lt;/li&gt;
+  &lt;li&gt;part and assembly drawing/documentation&lt;/li&gt;
+  &lt;li&gt;FDM 3D printing of custom parts in PLA plastic&lt;/li&gt;
+  &lt;li&gt;design team manpower augmentation&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;This is all well and good but in the end, I’d really like to dispense with web servers entirely if I can help it, or at lease only use them for dynamic content.  Once I can get a static site generator I’m happy with, I think the next step will be to write a contact form web service that I’ll use via javascript and then I can move everything to S3 and decommission my web server.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Lego pin sorter</title>
-   <link href="https://andrewnetherton.github.io/NethertonSolutions/lego-automated-pin-sorter.html"/>
-   <updated>2016-07-16T09:26:34-04:00</updated>
-   <id>https://andrewnetherton.github.io/NethertonSolutions/lego-automated-pin-sorter</id>
-   <content type="html">&lt;p&gt;I just found this post on youtube, google used it’s deep learning voodoo to recommend it to me and it seems they chose well.  The video is great, it gets right to the point and require no &lt;a href=&quot;http://knowyourmeme.com/memes/the-wadsworth-constant&quot; title=&quot;Wadsworth Constant explained&quot;&gt;Wadsworth constant&lt;/a&gt; correction.&lt;/p&gt;
-
-&lt;p&gt;This is the first time I’ve seen a compressed air system for lego and it’s a pretty exciting concept.  The system uses 4 pumps, driven off a camshaft to maintain air pressure.  The pressurized air is then used to blow pins into their appropriate bins.  Using only a single optical sensor and a single mind storms brain the machine is able to sort pins into bins automatically.&lt;/p&gt;
-
-&lt;p&gt;This makes me want to go out and buy some lego.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Updated website</title>
-   <link href="https://andrewnetherton.github.io/NethertonSolutions/new-website.html"/>
-   <updated>2016-07-15T09:26:34-04:00</updated>
-   <id>https://andrewnetherton.github.io/NethertonSolutions/new-website</id>
-   <content type="html">&lt;p&gt;So it tried out Jekyll as it seems to be becoming popular and here we are.&lt;/p&gt;
-
-&lt;p&gt;Jekyll seems to be pretty effective.  I’ve been enjoying building this particular site.  It is based on the &lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme&quot;&gt;tutorial theme&lt;/a&gt; provided by &lt;a href=&quot;http://scotch.io&quot;&gt;scotch.io&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’ve been working on Drupal sites for the past 3 years and the constant update process is starting to get old.  Some day I just want my sites to be ok on their own.  I want to be able to go on vacation without worrying about some new security flaw to be announced and then have some script kiddie compromise my web server before I can run an update.  I’ve successfully use the &lt;a href=&quot;https://www.drupal.org/project/static&quot;&gt;static generator&lt;/a&gt; module to archive sites in the past and after a little bit of bash scripting I was able to upload a static version of a Drupal site to Amazon S3 to be served as a website without a database or web server.&lt;/p&gt;
-
-&lt;p&gt;This is all well and good but in the end, I’d really like to dispense with web servers entirely if I can help it, or at lease only use them for dynamic content.  Once I can get a static site generator I’m happy with, I think the next step will be to write a contact form web service that I’ll use via javascript and then I can move everything to S3 and decommission my web server.&lt;/p&gt;
+&lt;p&gt;Netherton Solutions uses &lt;a href=&quot;http://solidworks.com&quot; target=&quot;_blank&quot;&gt;Solidworks&lt;/a&gt; 3D CAD software, provided by &lt;a href=&quot;http://fea-tc.com&quot; target=&quot;_blank&quot;&gt;FEA Training Consultants&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  

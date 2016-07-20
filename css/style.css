@@ -5956,16 +5956,16 @@ a {
   outline: none !important;
   text-decoration: none !important;
   transition: all 225ms ease;
-  color: #009945; }
+  color: #0093C9; }
   a:hover {
-    color: #6165FF; }
+    color: #E2231A; }
 
 .btn {
   text-transform: uppercase;
   font-weight: 400; }
 
 ::selection {
-  background: #086AFF;
+  background: #0093C9;
   color: #fff; }
 
 nav.navbar {
@@ -5977,7 +5977,7 @@ nav.navbar {
     text-transform: none; }
     nav.navbar .navbar-brand i {
       transition: inherit;
-      color: #1BA8E2;
+      color: #0093C9;
       transform: scale(1); }
     nav.navbar .navbar-brand:hover i {
       color: #ff6f6f;
@@ -6000,8 +6000,10 @@ h1.special {
   font-size: 40px;
   line-height: 40px;
   font-weight: 700;
-  color: #1BA8E2;
-  margin-top: 80px; }
+  color: #0093C9;
+  margin-top: 15px; }
+  h1.special.main {
+    text-align: center; }
   h1.special span {
     display: inline-block;
     position: relative;
@@ -6061,7 +6063,7 @@ h1.special {
         height: 100%;
         display: block;
         content: '';
-        background: #000;
+        background: #222222;
         opacity: 0.4;
         transition: all 225ms ease; }
     .tile .featurette iframe {
@@ -6079,7 +6081,7 @@ h1.special {
     font-size: 24px;
     font-weight: 300;
     line-height: 1.5em;
-    color: #484848; }
+    color: #222222; }
     .tile .excerpt p {
       margin: 0; }
   .tile .tags {
@@ -6108,7 +6110,7 @@ h1.special {
 
 aside {
   font-size: 17px;
-  color: #525252;
+  color: #222222;
   margin: 16px 0; }
   aside span {
     text-transform: uppercase;
@@ -6120,9 +6122,14 @@ aside {
 .pagination-wrap {
   text-align: center; }
 
-#logo img {
-  max-width: 300px;
-  width: 70%; }
+#logo {
+  text-align: right; }
+  #logo.main {
+    text-align: center; }
+    #logo.main img {
+      max-height: 300px; }
+  #logo img {
+    max-height: 80px; }
 
 .topper {
   height: 500px;
@@ -6151,7 +6158,10 @@ pre {
 @media only screen and (max-width: 991px) {
   pre {
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  #logo {
+    text-align: center; } }
 @media only screen and (max-width: 480px) {
   .tile .featurette, .topper {
     height: 300px; }
