@@ -10,9 +10,11 @@ fi
 
 MESSAGE=$1
 git add .
-git commit -m $MESSAGE
+git commit -m "$MESSAGE"
+git push
 cd _site
 git add .
-git commit -m $MESSAGE
+git commit -m "$MESSAGE"
+git push
 cd ..
 git status
