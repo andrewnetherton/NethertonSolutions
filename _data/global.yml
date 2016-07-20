@@ -1,6 +1,6 @@
 # Site Settings
 title: 'Netherton Solutions'
-description: 'Engineering Consulting and Design.'
+#description: 'Mechanical Design Services and Consulting.'
 url: 'https://andrewnetherton.github.io/NethertonSolutions' # the base hostname & protocol for your site
 #url: ''
 footer_text: '&copy; Netherton Solutions'
