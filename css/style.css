@@ -6127,7 +6127,8 @@ aside {
   #logo.main {
     text-align: center; }
     #logo.main img {
-      max-height: 300px; }
+      max-height: 300px;
+      max-width: 90%; }
   #logo img {
     max-height: 80px; }
 
