@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Netherton Solutions</title>
- <link href="https://andrewnetherton.github.io/NethertonSolutions/atom.xml" rel="self"/>
- <link href="https://andrewnetherton.github.io/NethertonSolutions/"/>
- <updated>2016-07-20T15:46:06-04:00</updated>
- <id>https://andrewnetherton.github.io/NethertonSolutions</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2016-07-20T22:17:49-04:00</updated>
+ <id></id>
  <author>
    <name>Andrew Netherton</name>
    <email>andrew@netherton.solutions</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Welcome to Netherton Solutions</title>
-   <link href="https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions.html"/>
+   <link href="/netherton-solutions.html"/>
    <updated>2016-07-19T00:00:00-04:00</updated>
-   <id>https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions</id>
+   <id>/netherton-solutions</id>
    <content type="html">&lt;p&gt;Welcome to Netherton Solutions, a provider of mechanical design and product development services located in Waterloo, Ontario, Canada.&lt;/p&gt;
 
 &lt;p&gt;We can provide the following services:&lt;/p&gt;

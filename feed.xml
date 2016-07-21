@@ -3,10 +3,10 @@
   <channel>
     <title>Netherton Solutions</title>
     <description></description>
-    <link>https://andrewnetherton.github.io/NethertonSolutions/</link>
-    <atom:link href="https://andrewnetherton.github.io/NethertonSolutions/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jul 2016 15:46:06 -0400</pubDate>
-    <lastBuildDate>Wed, 20 Jul 2016 15:46:06 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Jul 2016 22:17:49 -0400</pubDate>
+    <lastBuildDate>Wed, 20 Jul 2016 22:17:49 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -26,8 +26,8 @@
 &lt;p&gt;Netherton Solutions uses &lt;a href=&quot;http://solidworks.com&quot; target=&quot;_blank&quot;&gt;Solidworks&lt;/a&gt; 3D CAD software, provided by &lt;a href=&quot;http://fea-tc.com&quot; target=&quot;_blank&quot;&gt;FEA Training Consultants&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Jul 2016 00:00:00 -0400</pubDate>
-        <link>https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions.html</link>
-        <guid isPermaLink="true">https://andrewnetherton.github.io/NethertonSolutions/netherton-solutions.html</guid>
+        <link>/netherton-solutions.html</link>
+        <guid isPermaLink="true">/netherton-solutions.html</guid>
         
         <category>blog</category>
         
