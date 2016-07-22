@@ -1,13 +1,13 @@
 ---
 ---
-@import '../_sass/bootstrap';
-@import '../_sass/syntax-highlighting';
-
-
 $netherton-primary: #0093C9;
 $netherton-secondary: #E2231A;
 $netherton-dark: #222222;
 $netherton-light-grey: #e8e8e8;
+$brand-info: $netherton-primary;
+
+@import '../_sass/bootstrap';
+@import '../_sass/syntax-highlighting';
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
