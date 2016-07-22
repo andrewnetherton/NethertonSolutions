@@ -6171,7 +6171,7 @@ pre {
   font-size: 30px;
   float: left;
   min-width: 14em;
-  padding-left: 1em; }
+  padding-left: 1.0em; }
 
 @media only screen and (max-width: 991px) {
   pre {
@@ -6184,7 +6184,8 @@ pre {
   .contact-data dt {
     font-size: 20px; }
   .contact-data dd {
-    font-size: 20px; } }
+    font-size: 20px;
+    padding-left: 1.5em; } }
 @media only screen and (max-width: 480px) {
   .tile .featurette, .topper {
     height: 300px; }
