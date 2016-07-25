@@ -12,6 +12,7 @@ permalink: /contact/
                 <dd><a href="mailto:andrew@netherton.solutions">andrew@netherton.solutions</a></dd>
                 <dt><i class="fa fa-phone" aria-hidden="true"></i> Phone</dt>
                 <dd><a href="tel:5195009722">519-500-9722</a></dd>
+                <dt><i class="fa fa-download" aria-hidden="true"></i><a href="/assets/Netherton_Solutions.vfc"> vCard</a></dt>
               </dl>
             </div>
         </div>
