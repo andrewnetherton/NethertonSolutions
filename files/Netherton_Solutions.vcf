@@ -1,0 +1,9 @@
+BEGIN:VCARD
+N:Netherton;Andrew;;;P.Eng.
+ADR;INTL;PARCEL;WORK:;;;Waterloo;Ontario;;
+EMAIL;INTERNET:andrew@netherton.solutions
+ORG:Netherton Solutions
+TEL;WORK:519-500-9722
+TEL;CELL:519-500-9722
+URL;WORK:http://netherton.solutions
+END:VCARD
