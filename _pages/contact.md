@@ -2,7 +2,6 @@
 layout: inner
 title: Contact
 permalink: /contact/
-#                <dt><i class="fa fa-download" aria-hidden="true"></i><a href="/Netherton_Solutions.vfc"> vCard</a></dt>
 
 ---
 <main>
@@ -16,6 +15,8 @@ permalink: /contact/
                 <dd><a href="tel:5195009722">519-500-9722</a></dd>
                 <dt><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</dt>
                 <dd><a href="http://instagram.com/nethertonsolutions">NethertonSolutions</a></dd>
+                <dt><i class="fa fa-download" aria-hidden="true"></i> Download</dt>
+                <dd><a href="/files/Netherton_Solutions.vcf"> vCard</a></dd>
               </dl>
             </div>
         </div>
