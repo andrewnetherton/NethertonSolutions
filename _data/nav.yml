@@ -1,4 +1,4 @@
 main:
     - { url: '/about', text: 'About' }
-    - { url: 'https://www.instagram.com/explore/tags/nsexamplesofwork/', text: 'Examples of Work' }
+    - { url: 'https://www.instagram.com/explore/tags/nsexamplesofwork/', text: 'Examples of Work', target: '_blank' }
     - { url: '/contact', text: 'Contact' }
